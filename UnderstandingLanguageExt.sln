@@ -88,6 +88,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial01 - Monad", "Tutor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial40 - Try", "Tutorial40_Try\Tutorial40 - Try.csproj", "{464EF1BB-11F7-4AA5-97C9-BDEEEBE8C460}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "__FollowingAlong", "__FollowingAlong\__FollowingAlong.csproj", "{62A07B23-94A0-497D-8B50-C4DE7B5B322F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -254,6 +256,10 @@ Global
 		{464EF1BB-11F7-4AA5-97C9-BDEEEBE8C460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{464EF1BB-11F7-4AA5-97C9-BDEEEBE8C460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{464EF1BB-11F7-4AA5-97C9-BDEEEBE8C460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A07B23-94A0-497D-8B50-C4DE7B5B322F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A07B23-94A0-497D-8B50-C4DE7B5B322F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A07B23-94A0-497D-8B50-C4DE7B5B322F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A07B23-94A0-497D-8B50-C4DE7B5B322F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,7 +20,7 @@ namespace Tutorial01
 
             // Fetch or Select() a value from the box by using the Box's Select() function implicitly
             var result = from number1 in myNumberBox1
-                select number1 + 1; // This is called the 'Linq Expression Syntax' and requires Box<T> to have a Select() function for it to work
+                         select number1 + 1; // This is called the 'Linq Expression Syntax' and requires Box<T> to have a Select() function for it to work
 
             // This is called the Linq Fluent syntax - does the same thing as the above
             Box<int> result2 = myNumberBox1.Select(x => x + 1); // x=> x+1 is the transformation function also known as a mapping function
